@@ -1,5 +1,5 @@
 import {
-  CollabkitProvider,
+  CollabKitProvider,
   CustomTheme,
   Inbox,
   ThemeProvider,
@@ -26,6 +26,7 @@ import ReactFlow, {
   Background,
 } from "reactflow";
 import "reactflow/dist/style.css";
+import { CloseIcon } from "./icons";
 import { MessageIcon, ClockIcon, EllipsisIcon } from "./icons";
 
 const theme: CustomTheme = {
@@ -362,7 +363,7 @@ function CommentsPopover() {
 }
 
 export default () => (
-  <CollabkitProvider
+  <CollabKitProvider
     appId="add me"
     apiKey="add me"
     workspace={{
@@ -379,5 +380,5 @@ export default () => (
     <div style={{ height: "100vh" }}>
       <OverviewFlow />
     </div>
-  </CollabkitProvider>
+  </CollabKitProvider>
 );
