@@ -28,8 +28,8 @@ const theme: CustomTheme = {
 
 export default () => (
   <CollabKitProvider
-    appId="ADD APP ID HERE"
-    apiKey="ADD API KEY HERE"
+    appId="kCRR6dbbpjTJqDtPfH6hh"
+    apiKey="bkfzdHjzFrPLbFW8CPPHbfjGTnKDLTPm"
     workspace={{
       id: "demo",
       name: "Workspace",
