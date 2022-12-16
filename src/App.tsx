@@ -376,7 +376,6 @@ export default () => (
     theme={theme}
     mentionableUsers={'allWorkspace'}
   >
-  >
     <div style={{ height: "100vh" }}>
       <OverviewFlow />
     </div>
