@@ -18,7 +18,7 @@ export function CommentsPopover() {
       </Popover.Trigger>
       <Popover.Portal>
         <Popover.Content
-          className="relative bg-white drop-shadow-2p rounded-lg z-40 transition-transform flex flex-col"
+          className="relative bg-white drop-shadow-2p rounded-lg z-40 transition-transform flex flex-col min-w-80"
           sideOffset={2}
           arrowPadding={20}
           align="end"
