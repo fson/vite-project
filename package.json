@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@collabkit/pro-theme-cashboard": "1.0.1",
+    "@collabkit/react": "0.7.0",
+    "@szhsin/react-menu": "3.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
